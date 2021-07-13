@@ -259,7 +259,7 @@ export default class PdfView extends Component {
     _renderItem = ({item, index}) => {
 
         return (
-            <DoubleTapView style={{flexDirection: this.props.horizontal ? 'row' : 'column'}}
+            <DoubleTapView style={{flexDirection: this.props.horizontal ? 'row' : 'column', borderWidth: 1, borderColor: 'red'}}
                            onSingleTap={(x, y) => {
                                this._onItemSingleTap(index, x, y);
                            }}
