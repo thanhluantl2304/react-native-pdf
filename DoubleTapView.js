@@ -38,12 +38,12 @@ export default class DoubleTapView extends Component {
         super();
 
         this.gestureHandlers = PanResponder.create({
-            onStartShouldSetPanResponder: (evt, gestureState) => (gestureState.numberActiveTouches === 1),
-            onStartShouldSetResponderCapture: (evt, gestureState) => (gestureState.numberActiveTouches === 1),
-            onMoveShouldSetPanResponder: (evt, gestureState) => (false),
-            onMoveShouldSetResponderCapture: (evt, gestureState) => (false),
-            onPanResponderTerminationRequest: (evt, gestureState) => false,
-            onPanResponderRelease: this.handlePanResponderRelease,
+            // onStartShouldSetPanResponder: (evt, gestureState) => (gestureState.numberActiveTouches === 1),
+            // onStartShouldSetResponderCapture: (evt, gestureState) => (gestureState.numberActiveTouches === 1),
+            // onMoveShouldSetPanResponder: (evt, gestureState) => (false),
+            // onMoveShouldSetResponderCapture: (evt, gestureState) => (false),
+            // onPanResponderTerminationRequest: (evt, gestureState) => false,
+            // onPanResponderRelease: this.handlePanResponderRelease,
 
         });
 
