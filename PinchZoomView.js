@@ -36,15 +36,15 @@ export default class PinchZoomView extends Component {
         this.state = {};
         this.distant = 0;
         this.gestureHandlers = PanResponder.create({
-            onStartShouldSetPanResponder: this._handleStartShouldSetPanResponder,
-            onMoveShouldSetResponderCapture: (evt, gestureState) => (true),
-            onMoveShouldSetPanResponder: this._handleMoveShouldSetPanResponder,
-            onPanResponderGrant: this._handlePanResponderGrant,
-            onPanResponderMove: this._handlePanResponderMove,
-            onPanResponderRelease: this._handlePanResponderEnd,
-            onPanResponderTerminationRequest: evt => false,
-            onPanResponderTerminate: this._handlePanResponderTerminate,
-            onShouldBlockNativeResponder: evt => true
+            // onStartShouldSetPanResponder: this._handleStartShouldSetPanResponder,
+            // onMoveShouldSetResponderCapture: (evt, gestureState) => (true),
+            // onMoveShouldSetPanResponder: this._handleMoveShouldSetPanResponder,
+            // onPanResponderGrant: this._handlePanResponderGrant,
+            // onPanResponderMove: this._handlePanResponderMove,
+            // onPanResponderRelease: this._handlePanResponderEnd,
+            // onPanResponderTerminationRequest: evt => false,
+            // onPanResponderTerminate: this._handlePanResponderTerminate,
+            // onShouldBlockNativeResponder: evt => true
         });
 
     }
