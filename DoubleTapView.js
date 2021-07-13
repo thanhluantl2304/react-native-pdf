@@ -118,7 +118,7 @@ export default class DoubleTapView extends Component {
 
     render() {
         return (
-            <View {...this.props} {...this.gestureHandlers.panHandlers}>
+            <View {...this.props}>
                 {this.props.children}
             </View>
         );
